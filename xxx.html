@@ -9,7 +9,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
-    <title>title and rest &#8212; My sample book</title>
+    <title>Intro &#8212; My sample book</title>
   
   
   
@@ -171,7 +171,7 @@ const thebe_selector_output = ".output, .cell_output"
 <li class="toctree-l1"><a class="reference internal" href="markdown.html">Markdown Files</a></li>
 <li class="toctree-l1"><a class="reference internal" href="notebooks.html">Content with notebooks</a></li>
 <li class="toctree-l1"><a class="reference internal" href="markdown-notebooks.html">Notebooks with MyST Markdown</a></li>
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">title and rest</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Intro</a></li>
 </ul>
 
     </div>
@@ -357,7 +357,7 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>title and rest</h1>
+    <h1>Intro</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -367,7 +367,13 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#second-title">second title</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#second-title">second title</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#third-title">Third Title</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#outro-and-links">Outro and Links</a></li>
+</ul>
+</li>
+</ul>
+</li>
 </ul>
             </nav>
         </div>
@@ -379,8 +385,8 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article" role="main">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="title-and-rest">
-<h1>title and rest<a class="headerlink" href="#title-and-rest" title="Permalink to this heading">#</a></h1>
+  <section class="tex2jax_ignore mathjax_ignore" id="intro">
+<h1>Intro<a class="headerlink" href="#intro" title="Permalink to this heading">#</a></h1>
 <p>lorem ipsum sadsafm pkfkdse</p>
 <section id="second-title">
 <h2>second title<a class="headerlink" href="#second-title" title="Permalink to this heading">#</a></h2>
@@ -408,12 +414,25 @@ bu bolumun sonuna bi horizontal line koyuyorum</p>
 </li>
 </ol>
 <hr class="docutils" />
-<p>admonitions
-‘’’{admonition} Baslik
-ve ornek metin de icinde
-‘’’</p>
+<section id="third-title">
+<h3>Third Title<a class="headerlink" href="#third-title" title="Permalink to this heading">#</a></h3>
+<p>admonitions</p>
+<div class="admonition-baslik admonition">
+<p class="admonition-title">Baslik</p>
+<p>ve ornek metin de icinde</p>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>This is an example
+of a warning directive.</p>
+</div>
 <hr class="docutils" />
-<p>ve son olarak bolume link verme <span class="xref myst"></span></p>
+<section id="outro-and-links">
+<h4>Outro and Links<a class="headerlink" href="#outro-and-links" title="Permalink to this heading">#</a></h4>
+<p>ve son olarak bolume link verme <a class="reference internal" href="#ilkbolum"><span class="std std-ref">ilkbolum</span></a>.
+daha da son olarak <a class="reference internal" href="#ikincibolum"><span class="std std-ref">ikinci bolume link</span></a> e link verme.</p>
+</section>
+</section>
 </section>
 </section>
 
@@ -471,7 +490,13 @@ ve ornek metin de icinde
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#second-title">second title</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#second-title">second title</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#third-title">Third Title</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#outro-and-links">Outro and Links</a></li>
+</ul>
+</li>
+</ul>
+</li>
 </ul>
   </nav></div>
 

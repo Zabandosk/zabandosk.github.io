@@ -31,7 +31,7 @@ list example:
    * ikinin ikisinin yildizlisi
 
 ---
-### Third Title
+## Third Title
 admonitions
 ```{admonition} Baslik
 ve ornek metin de icinde
@@ -40,8 +40,11 @@ ve ornek metin de icinde
 ```{warning} This is an example
 of a warning directive.
 ```
+---
+## Last Title (Image)
+![resim](../image1.jpg)
 
 ---
-#### Outro and Links
+### Outro and Links
 ve son olarak bolume link verme [ilkbolum](ilkbolum).
 daha da son olarak [ikinci bolume link](ikincibolum) e link verme.

@@ -1,4 +1,4 @@
-# title and rest
+# Intro
 lorem ipsum sadsafm pkfkdse
 
 ## second title
@@ -31,10 +31,17 @@ list example:
    * ikinin ikisinin yildizlisi
 
 ---
+### Third Title
 admonitions
-'''{admonition} Baslik
+```{admonition} Baslik
 ve ornek metin de icinde
-'''
+```
+
+```{warning} This is an example
+of a warning directive.
+```
 
 ---
-ve son olarak bolume link verme [](ilkbolum)
+#### Outro and Links
+ve son olarak bolume link verme [ilkbolum](ilkbolum).
+daha da son olarak [ikinci bolume link](ikincibolum) e link verme.

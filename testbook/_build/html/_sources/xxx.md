@@ -44,6 +44,10 @@ of a warning directive.
 ## Last Title (Image)
 ![resim](../images/image1.jpg)
 ![resim2](../logo.png)
+![res](image1.jpg)
+![ress](./_build/html/_static/images/image1.jpg)
+![resds](../_build/html/_static/images/image1.jpg)
+
 
 ---
 ### Outro and Links

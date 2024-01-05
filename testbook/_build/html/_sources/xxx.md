@@ -42,11 +42,14 @@ of a warning directive.
 ```
 ---
 ## Last Title (Image)
-![resim](../images/image1.jpg)
-![resim2](../logo.png)
-![res](image1.jpg)
-![ress](./_build/html/_static/images/image1.jpg)
-![resds](../_build/html/_static/images/image1.jpg)
+
+```{image} ./_build/html/_static/images/image1.jpg
+:alt: streetart
+:class: bg-primary mb-1
+:height: 200px
+:align: center
+```
+
 
 
 ---

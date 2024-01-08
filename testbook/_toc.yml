@@ -3,8 +3,21 @@
 
 format: jb-book
 root: intro
-chapters:
-- file: markdown
-- file: notebooks
-- file: markdown-notebooks
-- file: xxx
+parts:
+   - caption: Data Management on UI
+     chapters:
+     - file: 01_creation
+     - file: 02_metadata
+     - file: 03_lists
+     - file: 04_ui
+     - file: 05_relationships
+   - caption: Data Management on Spreadsheets
+     - file: 06_resource
+     - file: 07_entities
+     - file: 08_collections
+     - file: 09_controlledvocabularies
+     - file: 10_mappings   
+   - caption: Ingestion Process
+     - file: 11_importmapping
+     - file: 12_importmedia
+     - file: 13_ingestionworkflow
